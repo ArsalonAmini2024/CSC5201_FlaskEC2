@@ -9,7 +9,25 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'CSC5201 Flask Application - Hello World'
+    html_content = '''
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CSC5201 Flask Application</title>
+        <style>
+            h1 {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSC5201</h1>
+        <p>Flask Application running on EC2 Server</p>
+        <p>Student: Arsalon Amini - Hajibashi</p>
+    </body>
+    </html>
+    '''
+    return html_content
 
 
 if __name__ == "__main__":
