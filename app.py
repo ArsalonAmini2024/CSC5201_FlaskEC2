@@ -21,8 +21,9 @@ def hello_world():
         </style>
     </head>
     <body>
-        <h1>CSC5201</h1>
-        <p>Flask Application running on EC2 Server</p>
+        <h1>CSC5201 Spring 2024</h1>
+        <h2>Digital Ocean - Platform as a service</h2>
+        <p>Flask Application running on Digital Ocean</p>
         <p>Student: Arsalon Amini - Hajibashi</p>
     </body>
     </html>
